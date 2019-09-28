@@ -52,7 +52,41 @@ div.dropdown-menu dropdown-menu-sm dropdown-menu-right{
     .nav-link.active {
         color: #bcac76;
     }
+
+    .cart-item-img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .input-items{
+        margin:0px;
+        padding: 2px;
+    }
+
+    .flex-column{
+        margin-top: auto;
+    }
     
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    .change-shop{
+        float: right;
+    }
+
+    
+    .cart-item{
+        margin-bottom:5px;
+        padding: 5px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    }
+
+    .checkout-box{
+        padding: 15px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    }
+
     #loginModalLinkLogin{
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
