@@ -1,0 +1,121 @@
+
+
+div.dropdown-menu dropdown-menu-sm dropdown-menu-right{
+    position: absolute; 
+    will-change: transform; 
+    top: 0px; 
+    left: 0px; 
+    transform: translate3d(-162px, 39px, 0px);
+    }
+
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    a:hover{
+        color: #bcac76;
+    }
+    
+    .navbar-toggler{
+        padding-left: 2px;
+        padding-right: 3px;
+    }
+    
+    .navbar-top{
+        border-bottom: 0.5px solid white;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .navbar-top .navbar-nav {
+        flex-direction: row;
+    }
+    
+    .list-group{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .navbar-toggler{
+        background: transparent;
+        border: none;
+    }
+    
+    .mb-3{
+        border: 1px solid grey;
+    }
+    
+    .nav-link.active {
+        color: #bcac76;
+    }
+    
+    #loginModalLinkLogin{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #loginModalLinkRegister{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    div.dropdown-menu{
+        padding: 0px;
+        width: auto;
+        }
+    
+    .notifciation-menu{
+            left: -130px;
+            right: 0px;
+            width: auto;
+        }
+        
+    
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .nav li{
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .nav li{
+            margin: 0px 18px 0px 18px;
+        }
+    
+    }
+    
+    @media only screen and (min-width: 992px){
+    
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        flex-direction: row;
+    }
+    
+    }
+    
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {}
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
+    
+    
+    
+    
+    
