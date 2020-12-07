@@ -14,7 +14,7 @@
   </head>
   <body>
    
-    <header class="bg-transparent text-light" id="header-main">
+    <header class="bg-transparent d-flex text-light" id="header-main">
         
         <div class="navbar-top navbar-light bg-light">
             <div class="container">
